@@ -37,6 +37,7 @@ Encode categorical variables (e.g., one-hot or ordinal encoding).
 
 Address imbalanced classes using techniques like oversampling (e.g., SMOTE) or undersampling.
 
+
 ---
 
 3. Feature Engineering
@@ -54,8 +55,6 @@ Conduct feature selection using:
 
 Correlation analysis.
 
-Recursive feature elimination (RFE).
-
 Feature importance from tree-based models.
 
 ---
@@ -69,7 +68,6 @@ Ensure the split maintains class balance.
 ---
 
 5. Model Selection and Training
-(We only learn these i know there were more)
 Evaluate different algorithms:
 
 Logistic Regression: Estimates probability that a given input point belongs to a certain class using a logistic function 
@@ -112,12 +110,6 @@ Conduct error analysis to identify patterns in misclassifications.
 7. Optimization
 
 Fine-tune hyperparameters using:
-
-Grid Search or Random Search.
-
-Bayesian Optimization for efficiency.
-
-
 Consider ensemble methods:
 
 Bagging (e.g., Random Forest).
