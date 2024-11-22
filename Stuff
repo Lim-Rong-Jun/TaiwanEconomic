@@ -1,0 +1,28 @@
+##Pre-processing 
+
+96 columns (Selecting relevant columns)
+-Net income flag not needed (All 1 value)
+-
+Profitability Metrics:
+-ROA(C), ROA(A), and ROA(B): Variants of Return on Assets are critical indicators of how efficiently assets generate income.
+-Net Income to Total Assets: Measures how much profit the company earns relative to its assets.
+-Operating Gross Margin, Operating Profit Rate: Assess operational efficiency and margins.
+
+Liquidity Ratios:
+-Current Ratio, Quick Ratio: Measure short-term financial health.
+-Cash/Current Liability: Indicates how easily the company can cover liabilities with cash.
+
+Leverage Ratios:
+-Liability to Equity, Debt ratio %: Assess the company’s reliance on debt financing.
+-Interest Coverage Ratio: Ability to service debt obligations.
+
+Cash Flow Metrics:
+-Cash Flow to Total Assets, CFO to Assets: Indicate cash-generating capacity.
+
+Growth Rates:
+-Total Asset Growth Rate, Net Value Growth Rate: Capture trends in financial health.
+
+Expense Ratios:
+-Total expense/Assets: Indicates cost efficiency relative to the asset base.
+
+Remember to use feature selection to identify relevant predictors to avoid overfitting
