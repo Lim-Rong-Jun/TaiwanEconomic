@@ -26,3 +26,46 @@ Expense Ratios:
 -Total expense/Assets: Indicates cost efficiency relative to the asset base.
 
 Remember to use feature selection to identify relevant predictors to avoid overfitting
+
+Multi-class classfication is a type of classfication task where goal is to assign an instance/result to one or more possible clauses 
+(e.g Red, Blue, Green, Black ball and you are trying to predict which ball)
+
+
+
+While logistic regression can function without scaling for some datasets, feature scaling is a best practice, particularly when:
+Features vary greatly in magnitude.
+You use regularization.
+You want faster and more stable convergence.
+
+DO NOT NEED FEATURE SCALING/NORMALIZATION since they are already on the same scale
+One-hot encoding is representing categorical variables as binary vector (e.g [0 1 0], [1 0 0]) 
+Binary features - Values that can take on one or two values (usually True/False or Yes/No questions) 
+
+Regularization
+-Used to address overfitting or improve model generalization by penalizing large or unnecessary (feature) coefficients
+-Adds penalty term to loss function, discourages model from fitting noise in training data 
+
+Why it's needed?
+1. Prevent overfitting
+Caused by: 
+-Dataset having more features relative to samples
+-Highly correlated or redundant features
+-Model allowed to assign large weights to specific features
+
+2. Improve generalization 
+A regularized model performs better on unseen data by avoiding fitting noise in training data
+
+3. Handles multicollinearity 
+(From point 1)
+
+4. Feature selection:
+L1 Regularization (Lasso): Sets coefficients to exactly zero 
+L2 Regularization (Ridge): SHRINKS coefficents (but does not set them to 0), retaining all features 
+
+How do you determine regularization constant?
+
+1.Grid search with cross-validation
+2.Randomized search
+3.Bayesian Optimization
+4.Validation curve (Plotting performance (e.g accuracy/F1 score) as a function of regularization constant)
+
