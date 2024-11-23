@@ -71,7 +71,7 @@ Ensure the split maintains class balance.
 Evaluate different algorithms:
 
 Logistic Regression: Estimates probability that a given input point belongs to a certain class using a logistic function 
-Multi-class classification - Extends binary logistic regression to handle multiple classes by using one-vs-rest (OvR) or softmax regression. Esimtates probability of each class and assigns input to the class with highest probability 
+Multi-class classification - Extends binary logistic regression to handle multiple classes/results/outcomes by using one-vs-rest (OvR) or softmax regression. Esimtates probability of each class and assigns input to the class with highest probability 
 
 Decision Trees - Classification and Regression Tree (CART) /Random Forests: Handle non-linear relationships well.
 
