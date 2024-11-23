@@ -98,6 +98,10 @@ Accuracy: shows how often a model is correct overall
 
 AUC-ROC: Measures the trade-off between true positives and false positives.
 
+After training, analyze which features contribute most to predicting bankruptcy.
+Techniques:
+Coefficients in logistic regression.
+Feature importance plots in tree-based models.
 
 Conduct error analysis to identify patterns in misclassifications.
 
