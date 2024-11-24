@@ -69,3 +69,27 @@ How do you determine regularization constant?
 3.Bayesian Optimization
 4.Validation curve (Plotting performance (e.g accuracy/F1 score) as a function of regularization constant)
 
+Key considerations of Regularization constant
+Small lamda - Less regularization --> Potential overfitting
+Large lamda - Stronger regularization --> Potential underfitting 
+
+For high-dimensional data(data where you have more features than observation/data points), stronger regularization is better 
+For smaller datasets, weaker regularization is better 
+(L1(LASSO) AND L2(RIDGE) may require different lamda values)
+
+Evaluation
+Confusion Matrix
+True Positive (TP): predicted class matches the actual class; actual value was positive, model predicted positive
+True Negative (TN): predicted class matches the actual class; actual value was negative, model predicted negative
+False Positive (FP): predicted value was falsely predicted; actual value was negative; model predicted positive
+False Negative (FN): predicted value was falsely predicted; actual value was positive; model predicted negative
+Accuracy: shows how often a model is correct overall
+
+Precision (Good measure when cost of False Positive high)
+Measures how accurate model is out of predicted positive (how well model predicts the true positive) 
+
+Recall (Good measure when cost of FALSE negative high)
+Measures how many actual positives our model captures actual positive 
+
+F1 (Helpful for uneven distributions; large number of actual negatives)
+Balance between Precision and Recall
